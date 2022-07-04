@@ -1,5 +1,17 @@
 {
 	"manifest_version": 3,
 	"name": "lampranthus",
-	"version": "0.0.1"
+	"version": "0.1.0",
+	"permissions": [
+		"declarativeNetRequest"
+	],
+	"declarative_net_request": {
+		"rule_resources": [
+			{
+				"id": "block-noto-sans-jp",
+				"path": "rules/block-noto-sans-jp.json",
+				"enabled": true
+			}
+		]
+	}
 }
