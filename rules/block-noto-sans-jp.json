@@ -16,5 +16,14 @@
 			"urlFilter": "https://fonts.gstatic.com/s/notosansjp/",
 			"resourceTypes": ["font"]
 		}
+	},
+	{
+		"id": 3,
+		"priority": 1,
+		"action": { "type": "block" },
+		"condition": {
+			"urlFilter": "https://fonts.googleapis.com/css?family=Noto+Sans+JP",
+			"resourceTypes": ["stylesheet"]
+		}
 	}
 ]
