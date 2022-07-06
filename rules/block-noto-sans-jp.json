@@ -25,5 +25,23 @@
 			"urlFilter": "https://fonts.googleapis.com/css?family=Noto+Sans+JP",
 			"resourceTypes": ["stylesheet"]
 		}
+	},
+	{
+		"id": 4,
+		"priority": 1,
+		"action": { "type": "block" },
+		"condition": {
+			"urlFilter": "https://fonts.googleapis.com/earlyaccess/notosansjapanese.css",
+			"resourceTypes": ["stylesheet"]
+		}
+	},
+	{
+		"id": 5,
+		"priority": 1,
+		"action": { "type": "block" },
+		"condition": {
+			"urlFilter": "fonts.gstatic.com/ea/notosansjapanese/",
+			"resourceTypes": ["font"]
+		}
 	}
 ]
