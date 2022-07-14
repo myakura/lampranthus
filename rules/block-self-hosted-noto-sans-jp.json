@@ -1,0 +1,20 @@
+[
+	{
+		"id": 1,
+		"priority": 1,
+		"action": { "type": "block" },
+		"condition": {
+			"urlFilter": "NotoSansJP",
+			"resourceTypes": ["font"]
+		}
+	},
+	{
+		"id": 2,
+		"priority": 1,
+		"action": { "type": "block" },
+		"condition": {
+			"urlFilter": "NotoSansCJKjp",
+			"resourceTypes": ["font"]
+		}
+	}
+]

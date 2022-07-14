@@ -1,7 +1,7 @@
 {
 	"manifest_version": 3,
 	"name": "lampranthus",
-	"version": "0.3.1",
+	"version": "0.4.0",
 	"permissions": [
 		"declarativeNetRequest"
 	],
@@ -10,6 +10,11 @@
 			{
 				"id": "block-google-fonts-noto-sans-jp",
 				"path": "rules/block-google-fonts-noto-sans-jp.json",
+				"enabled": true
+			},
+			{
+				"id": "block-self-hosted-noto-sans-jp",
+				"path": "rules/block-self-hosted-noto-sans-jp.json",
 				"enabled": true
 			}
 		]
